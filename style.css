@@ -1,1 +1,24 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin-top: 30px;
+	background-color: 	#FFFF9E; /*light yellow*/
+	color: #FFFFFF;
+}
+body section{
+	background-color: #B19CD9;
+	width:.5;
+	text-align: center;
+	width:500px;
 
+}
+body h1{
+	font-size: .5;
+}
+body h2{
+	margin-bottom:0px;
+}
+body h5{
+	margin-top:-7px;
+}

@@ -6,6 +6,11 @@
 body{
 	background-color: 	#FFFF9E; /*light yellow*/
 	color: #222222;
+	font-family: 'Oxygen', sans-serif;
+}
+#outskirts{
+	padding: 0px;
+	margin: 100px 0px 0px 0px;
 }
 #box{
 	background-color: #B19CD9; /*lavender*/

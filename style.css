@@ -10,7 +10,14 @@ body{
 }
 #outskirts{
 	padding: 0px;
-	margin: 100px 0px 0px 0px;
+	margin: 50px 0px 0px 0px;
+}
+/*Чтобы на телефонах женщина не отображалась совсем*/
+@media screen and (max-width: 992px) {
+  #outskirts {
+    visibility: hidden;
+    display: none;
+  }
 }
 #box{
 	background-color: #B19CD9; /*lavender*/
@@ -18,10 +25,14 @@ body{
 	padding: 10px 0px 10px 0px;
 	text-align: center;
 	border: 3px solid black;
+	border-radius:20px;
+	text-shadow: 1px 1px 1px #222;
+	line-height: .75;
 }
 #box h1{
 	margin-bottom: 20px;
 }
 #box h5{
-	margin-top:-13px;
+	margin-top:-10px;
+	text-shadow: 0.8px 0.8px 0.8px #222;
 }

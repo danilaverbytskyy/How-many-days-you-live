@@ -3,6 +3,10 @@
 	margin: 0;
 	padding: 0;
 }
+#header-nav{
+	background-color: #F1948A;
+	border-radius: 0;
+}
 body{
 	background-color: 	#FFFF9E; /*light yellow*/
 	color: #222222;
@@ -32,7 +36,30 @@ body{
 #box h1{
 	margin-bottom: 20px;
 }
-#box h5{
-	margin-top:-10px;
-	text-shadow: 0.8px 0.8px 0.8px #222;
+
+/* CSS ДЛЯ ФОРМЫ ПОЛЬЗОВАТЕЛЯ*/
+input[type=text]{
+  padding: 10px;
+  margin: 5px 0 0px 0;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  background: #f1f1f1;
+  width:16%;
+}
+input[type=text]:focus{
+	background-color: #ddd;
+	outline: none;
+}
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  margin: 8px 0px 0px 4px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.85;
+}
+.registerbtn:hover {
+  opacity:1;
 }

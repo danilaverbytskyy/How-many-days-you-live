@@ -63,3 +63,6 @@ input[type=text]:focus{
 .registerbtn:hover {
   opacity:1;
 }
+hr{
+	margin:5px 0px 5px 0px;
+}

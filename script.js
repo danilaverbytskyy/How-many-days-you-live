@@ -17,7 +17,16 @@ function CalculatesHowManyDaysYouLive() {
 			/*Месяц должен быть между 0 и 11 в Data конструкторе*/
 			text = (today - birthday) / (1000 * 3600 * 24);
 			text = Math.floor(text);
-			text = "Вы прожили " + String(text) + " дней";
+			if(text>=5)
+				text = "Вы прожили " + String(text) + " дней";
+			else if(text>=2)
+				text = "Вы прожили " + String(text) + " дня";
+			else if(text==1)
+				text="Вы прожили 1 день";
+			else if(text==0)
+				text="Happy birthday to youuuuu";
+			else
+				text="Вы еще не родились";
 		}
 	}
 	document.getElementById("answer").innerHTML = text;
